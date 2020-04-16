@@ -1,2 +1,5 @@
 # Breast-Cancer-Analyzer
 The goal of this project is to create a web based tool that can batch analyze histopathology image patches and predict if breast cancer is present. The web app will be able to detect two forms of breast cancer:  Invasive Ductal Carcinoma (IDC) Metastatic Cancer We will create two CNN models, an IDC_model and a Metastatic_model. These models will be loaded into a Tensorflowjs web app. The user will be able to select which cancer he or she wants to detect, submit many images at the same time, and get an instant prediction indicating whether or not breast cancer is present in those images.  This app will speed up a pathologist's workflow and provide diagnosis support.  To ensure privacy and patient confidentiality, all images will be processed locally and never uploaded to an external server.  We will create the models in two kernels. In part 1 there is IDC_model and in part 2 the Metastatic_model. 
+##IDC Dataset
+https://www.kaggle.com/paultimothymooney/breast-histopathology-images
+download this data and extract into a folder input
